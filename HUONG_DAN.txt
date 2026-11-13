@@ -1,0 +1,22 @@
+TRANG WEB GIỚI THIỆU BẢN THÂN - LÊ ĐỨC CHÍNH - LỚP 12A2 - THPT HÒN GAI
+
+1. XEM TRANG WEB TRÊN MÁY TÍNH
+   - Giải nén toàn bộ file zip.
+   - Bấm đúp vào index.html để mở bằng trình duyệt.
+
+2. XEM TRANG WEB TRÊN ĐIỆN THOẠI
+   - Mở file mo_tren_dien_thoai.html (ảnh nằm sẵn trong file).
+
+3. XEM CODE
+   - Cách 1: mở file code.txt (toàn bộ code của ba trang, mở bằng Notepad).
+   - Cách 2: bấm chuột phải vào index.html, chọn Open with, chọn Notepad.
+   - Cách 3: khi đang mở trang trên trình duyệt, nhấn Ctrl + U.
+
+CẤU TRÚC THƯ MỤC
+   index.html                trang chính (mở trên máy tính)
+   trang_phu/                hai trang nhỏ hiện trong khung nội tuyến của trang chính
+                             (thanh_tich.html, so_thich.html), không cần mở riêng
+   mo_tren_dien_thoai.html   cùng nội dung, dùng cho điện thoại
+   code.txt                  bản sao code của ba trang
+   images/                   thư mục ảnh
+   videos/                   thư mục video

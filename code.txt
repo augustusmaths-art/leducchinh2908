@@ -1,0 +1,341 @@
+==================== 1. index.html (trang chính) ====================
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Giới thiệu bản thân - Lê Đức Chính</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f1f7fc;
+      color: #17324d;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px;
+      line-height: 1.7;
+      font-size: 18px;
+    }
+    h1 {
+      font-size: 56px;
+      font-weight: normal;
+      color: #1677c2;
+      margin-bottom: 0;
+    }
+    h2 {
+      font-weight: normal;
+      font-size: 30px;
+      margin-top: 40px;
+    }
+    a {
+      color: #1677c2;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #c9dcec;
+      margin: 40px 0;
+    }
+    img, video {
+      border: 8px solid #ffffff;
+      box-sizing: border-box;
+      max-width: 100%;
+      height: auto;
+    }
+    table {
+      border-collapse: collapse;
+      background-color: #ffffff;
+    }
+    th, td {
+      border: 1px solid #c9dcec;
+    }
+    th {
+      text-align: left;
+      background-color: #e3f0fa;
+    }
+    iframe {
+      border: 1px solid #c9dcec;
+      background-color: #ffffff;
+    }
+    .menu {
+      position: sticky;
+      top: 0;
+      background-color: #1677c2;
+      padding: 12px 16px;
+      margin: 20px 0;
+    }
+    .menu a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-right: 22px;
+      display: inline-block;
+    }
+    .menu a:hover {
+      color: #d6ecfb;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #17324d;
+    }
+    img:hover {
+      border-color: #1677c2;
+    }
+    .nut {
+      display: inline-block;
+      background-color: #1677c2;
+      color: #ffffff;
+      padding: 12px 24px;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    .nut:hover {
+      background-color: #17324d;
+      color: #ffffff;
+    }
+    .chan_trang {
+      text-align: center;
+      font-size: 15px;
+      color: #5b7389;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="dau_trang">Lê Đức Chính</h1>
+  <p><i>Học sinh lớp 12A2, Trường THPT Hòn Gai</i></p>
+
+  <!-- Thanh menu: liên kết tới các vị trí trong cùng trang -->
+  <p class="menu">
+    <a href="#gioi_thieu">Giới thiệu</a>
+    <a href="#hinh_anh">Hình ảnh</a>
+    <a href="#thanh_tuu">Thành tựu 2026</a>
+    <a href="#video">Video</a>
+    <a href="#tim_hieu_them">Tìm hiểu thêm</a>
+    <a href="#lien_he">Liên hệ</a>
+  </p>
+
+  <!-- Ảnh mở đầu và caption thứ nhất -->
+  <p><img src="images/bai_co.jpg" alt="Chính ngồi trên bãi cỏ buổi tối" width="360"></p>
+  <p>
+    <i>stay weird, it's magic.</i><br>
+    Hãy cứ khác biệt.<br>
+    Đó chính là phép màu của bạn
+  </p>
+  <hr>
+
+  <!-- 1. GIỚI THIỆU -->
+  <h2 id="gioi_thieu">1. Giới thiệu</h2>
+  <p>
+    Mình thích nghiên cứu khoa học, tham gia trình bày dự án và chơi game giải trí.
+    Mình đang định hướng theo học ngành Xây dựng.
+  </p>
+
+  <table id="thong_tin" border="1" cellpadding="8">
+    <caption>Thông tin cá nhân</caption>
+    <tr>
+      <th>Họ và tên</th>
+      <td>Lê Đức Chính</td>
+    </tr>
+    <tr>
+      <th>Ngày sinh</th>
+      <td>29/08/2009</td>
+    </tr>
+    <tr>
+      <th>Lớp</th>
+      <td>12A2</td>
+    </tr>
+    <tr>
+      <th>Trường</th>
+      <td>THPT Hòn Gai</td>
+    </tr>
+    <tr>
+      <th>Định hướng</th>
+      <td>Ngành Xây dựng</td>
+    </tr>
+  </table>
+
+  <hr>
+
+  <!-- 2. HÌNH ẢNH -->
+  <h2 id="hinh_anh">2. Hình ảnh</h2>
+  <p>
+    <img src="images/golden_gate.jpg" alt="Chính đứng nhìn ra cầu Golden Gate" width="250">
+    <img src="images/mu_trang.jpg" alt="Chính đội mũ trắng, đeo kính râm" width="250">
+    <img src="images/sanh.jpg" alt="Chính ngồi ở sảnh khách sạn" width="250">
+  </p>
+  <p>
+    <i>tôi chẳng quan tâm người khác nói gì về mình</i><br>
+    tôi không ngốc, tôi chỉ đang tận hưởng cuộc sống theo những quy tắc do chính mình đặt ra.
+  </p>
+  <hr>
+
+  <!-- 3. THÀNH TỰU -->
+  <h2 id="thanh_tuu">3. Thành tựu tiêu biểu năm 2026</h2>
+  <p>
+    Đạt <b>huy chương bạc</b> tại triển lãm sáng chế quốc tế
+    <a href="https://sviif.com/">Silicon Valley International Invention Festival (SVIIF)</a>
+    tại California, Mỹ.
+  </p>
+  <p>
+    <img src="images/nhan_giai.jpg" alt="Lễ trao giải tại SVIIF" width="600">
+  </p>
+  <p><b>Lễ trao giải tại SVIIF</b></p>
+  <p>
+    <i>Và có lẽ bí mật để có một cuộc sống tốt đẹp là nhận ra nó vốn dĩ đã tuyệt vời đến thế nào rồi.</i>
+  </p>
+  <p>
+    <img src="images/thanh_tich.jpg" alt="Huy chương bạc và diploma của SVIIF" width="300">
+    <img src="images/the_inventor.jpg" alt="Chính đeo thẻ INVENTOR tại SVIIF" width="300">
+  </p>
+  <hr>
+
+  <!-- 4. VIDEO -->
+  <h2 id="video">4. Video</h2>
+  <video width="270" height="480" controls autoplay muted poster="images/anh_bia_video.jpg">
+    <source src="videos/clip.mp4" type="video/mp4">
+    Trình duyệt của bạn không hỗ trợ HTML video
+  </video>
+  <hr>
+
+  <!-- 5. KHUNG NỘI TUYẾN -->
+  <h2 id="tim_hieu_them">5. Tìm hiểu thêm</h2>
+  <p>Bấm vào một mục để xem nội dung trong khung bên dưới:</p>
+  <p>
+    <a class="nut" href="trang_phu/thanh_tich.html" target="khung">Thành tích</a>
+    <a class="nut" href="trang_phu/so_thich.html" target="khung">Sở thích</a>
+  </p>
+  <iframe id="khung" name="khung" src="trang_phu/thanh_tich.html" width="100%" height="420"></iframe>
+  <hr>
+
+  <!-- 6. LIÊN HỆ -->
+  <h2 id="lien_he">6. Liên hệ</h2>
+  <p>Trang cá nhân Facebook của mình:</p>
+  <p><a class="nut" href="https://www.facebook.com/leducchinh247/">Đến trang Facebook của Chính</a></p>
+
+  <p><a href="#dau_trang">Quay lại đầu trang</a></p>
+  <hr>
+  <p class="chan_trang">Trang web do Lê Đức Chính, lớp 12A2 Trường THPT Hòn Gai thực hiện.</p>
+
+</body>
+</html>
+
+
+==================== 2. trang_phu/thanh_tich.html (hiện trong khung nội tuyến) ====================
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Thành tích - Lê Đức Chính</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
+      color: #17324d;
+      padding: 10px 20px;
+      line-height: 1.7;
+      font-size: 18px;
+    }
+    h3 {
+      font-weight: normal;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    a {
+      color: #1677c2;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #c9dcec;
+    }
+    th {
+      text-align: left;
+      background-color: #e3f0fa;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Thành tích của Lê Đức Chính</h3>
+
+  <table border="1" cellpadding="8">
+    <caption>Thành tích tiêu biểu</caption>
+    <tr>
+      <th>Năm</th>
+      <th>Thành tích</th>
+      <th>Địa điểm</th>
+    </tr>
+    <tr>
+      <td>2026</td>
+      <td>Huy chương bạc triển lãm sáng chế quốc tế SVIIF</td>
+      <td>California, Mỹ</td>
+    </tr>
+  </table>
+
+  <p>
+    Trang chính thức của triển lãm:
+    <a href="https://sviif.com/" target="_blank">sviif.com</a>
+  </p>
+
+</body>
+</html>
+
+
+==================== 3. trang_phu/so_thich.html (hiện trong khung nội tuyến) ====================
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sở thích - Lê Đức Chính</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #ffffff;
+      color: #17324d;
+      padding: 10px 20px;
+      line-height: 1.7;
+      font-size: 18px;
+    }
+    h3 {
+      font-weight: normal;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    a {
+      color: #1677c2;
+    }
+    table {
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid #c9dcec;
+    }
+    th {
+      text-align: left;
+      background-color: #e3f0fa;
+    }
+  </style>
+</head>
+<body>
+
+  <h3>Sở thích của Lê Đức Chính</h3>
+
+  <ol>
+    <li><b>Chơi game:</b> cách mình xả hơi sau giờ học. Game còn dạy mình tính kiên trì: thua thì chơi lại, tìm cách khác cho đến khi qua màn.</li>
+    <li><b>Ngủ:</b> nghe thì buồn cười nhưng là sở thích thật. Ngủ đủ giấc thì đầu óc mới tỉnh táo để học và nghĩ ra ý tưởng mới.</li>
+    <li><b>Học:</b> mình thích cảm giác hiểu ra một điều mà trước đó mình chưa biết, nhất là những thứ liên quan đến khoa học.</li>
+    <li><b>Đọc sách:</b> mỗi cuốn sách cho mình thêm một góc nhìn, và nhiều câu mình tâm đắc cũng đến từ những trang sách.</li>
+  </ol>
+
+  <p>Định hướng tương lai: theo học ngành <b>Xây dựng</b>.</p>
+
+</body>
+</html>
